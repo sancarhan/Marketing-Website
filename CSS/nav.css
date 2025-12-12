@@ -1,0 +1,88 @@
+.nav{
+ position: fixed;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ padding: 1rem 6.5rem;
+ background: transparent;
+ transition: all 0.5s ease;
+ z-index: 100000;
+ 
+}
+
+.nav.scrolled{
+ background-color: white;
+ transition: background-color 200ms linear;
+ box-shadow:  7px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.nav .navbar-toggler{
+ display: none;
+ border: none;
+ outline: none;
+}
+
+.nav .navbar-toggler .toggler-icon {
+ width: 27px;
+ height: 3px;
+ background-color: #121212;
+ margin: 5px 0;
+ position: relative;
+ display: block;
+ transition: all 0.3s ease-out;
+}
+
+
+
+.nav .menu-bar .menu-items{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.nav .menu-bar .menu-items li{
+ margin: 0 15px;
+}
+.nav .menu-bar .menu-items li a{
+ color: #000;
+ font-size: 18px;
+ font-weight: 600;
+}
+
+.nav .menu-bar .menu-items li a:hover{
+ color: #4F47E4;
+ transition: 0.5s ease;
+}
+
+.nav .navbar-social{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.nav .navbar-social span{
+ font-size: 18px;
+ font-weight: 600;
+ padding-right: 10px;
+ color: #6c6c6c;
+}
+
+.nav .navbar-social ul{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+.nav .navbar-social ul li{
+ margin: 0 7px;
+}
+
+.nav .navbar-social ul li a{
+ color: #6c6c6c;
+ font-size: 22px;
+}

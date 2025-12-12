@@ -1,0 +1,60 @@
+.contact{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.contact h6{
+ margin-bottom: 3rem;
+}
+
+.contact .form{
+ width: 70%;
+}
+
+
+.contact .form .first-row{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ margin: 25px 0;
+}
+
+.contact .form .first-row input{
+ width: 47%;
+ height: 56px;
+ border: 1px solid #cbced1;
+ border-radius: 10px;
+ padding: 0 25px;
+ font-size: 16px;
+ outline: none;
+}
+
+.contact .form textarea{
+ width: 100%;
+ resize: none;
+ border: 1px solid #cbced1;
+ border-radius: 10px;
+ padding: 0 25px;
+ font-size: 16px;
+ outline: none;
+ font-family: "Poppins", sans-serif;
+}
+
+.contact .form .header-btn{
+ margin: 2rem auto;
+ width: 170px;
+}
+
+.contact .form .header-btn a{
+  background-image: linear-gradient(to right, #535cf1, #a147e4);
+  color: white;
+  border: 1px solid;
+  border-radius: 20px;
+  font-size: 18px ;
+  font-weight: normal;
+  outline: none;
+}
